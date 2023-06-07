@@ -1,0 +1,42 @@
+*, body
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+html
+    overflow: hidden
+body
+    width: 100%
+    height: 100%
+    overflow: auto
+    font-family: "Roboto", "Montserrat", "Segoe UI","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue", sans-serif,
+    overflow-y: hidden
+
+*::-webkit-scrollbar
+    height: 4px
+    width: 4px
+    cursor: pointer !important
+    z-index: 3
+
+*::-webkit-scrollbar:hover
+    height: 4px
+    width: 4px
+    cursor: pointer !important
+
+*::-webkit-scrollbar-track
+    position: absolute !important
+    width: "20px"
+    cursor: pointer !important
+    // background: #EFF2FE
+
+*::-webkit-scrollbar-thumb
+    background-color: gray
+    border-radius: 8px
+    border: 0px solid #EFF2FE
+
+#root
+    --main: #00a884
+    --background: #eae6df
+    --hover: #f5f6f6
+    --panel-header-background: #f0f2f5
+    --chat-background: #f3f0ea
+    --outgoing-background: #d9fdd3
